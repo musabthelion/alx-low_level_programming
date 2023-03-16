@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * mian -function display "Programming is like building a multilingual puzzle.
- *
- * Return: 0 
- * 
+ * main -function display 
+ * Return: 0
  */
 
 int main(void)
