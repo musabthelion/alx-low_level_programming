@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -function display 
- * Return: 0
- */
+* Main - Entry Point
+* Return: 0
+*/
 
 int main(void)
 {
