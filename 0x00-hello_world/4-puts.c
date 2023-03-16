@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*this is code to proithe crtain lines 
- * using puts command 
- * which is important
+/**
+ * mian -function display "Programming is like building a multilingual puzzle.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
