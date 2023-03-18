@@ -2,12 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-*  main - determines positive negative or zero in the random integrer
-*
-*  description: first program
-*
-*  Return : always zero 0 (Success)
-*/
+ * main - entry point
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -27,5 +24,5 @@ int main(void)
 					printf("%d is zero\n", n);
 			}
 		}
-		return (0);
+	return (0);
 }
