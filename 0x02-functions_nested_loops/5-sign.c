@@ -3,7 +3,9 @@
 /**
  * print_sign - function
  * @n : sign of the muber
- * Return: 1 and print +if Returun: 0 if neq Return: -1 if
+ * Return: 1 if n is greater than one
+ * 0 if nis zero
+ * -1 if niis negative
  */
 
 int print_sign(int n)
