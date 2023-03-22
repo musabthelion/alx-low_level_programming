@@ -2,7 +2,8 @@
 #include"main.h"
 /**
  * _islower - function routione
- * Return: 0
+ * @c: definition
+ * Return: 1 incase c is lower else Return: 0
  */
 int _islower(int c)
 {
