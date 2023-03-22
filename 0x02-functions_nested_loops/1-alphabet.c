@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 27; i++)
+	for (i = 97; i < 123; i++)
 	{
-	print_alphabet();
+	print_alphabet(i);
 	}
 return (0);
 }
