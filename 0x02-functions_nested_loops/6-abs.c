@@ -3,7 +3,7 @@
 /**
  * _abs - absolute function
  * @i: is an integer
- * Return: 0
+ * Return: absolute value
  */
 
 int _abs(int i)
@@ -12,5 +12,5 @@ int _abs(int i)
 	{
 		i = -i;
 	}
-	return (0);
+	return (i);
 }
