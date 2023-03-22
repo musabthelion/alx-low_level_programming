@@ -5,13 +5,13 @@
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int i;
+	char i;
 
 	for (i = 97; i < 123; i++)
 	{
-	print_alphabet(i);
+	_putchar(i);
 	}
 return (0);
 }
