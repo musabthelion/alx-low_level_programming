@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - Entry Point
- * Return: 0
+ * Return: void
  */
 
 void print_alphabet(void)
@@ -11,7 +11,6 @@ void print_alphabet(void)
 
 	for (i = 97; i < 123; i++)
 	{
-	_putchar(i);
+	putchar (i);
 	}
-return (0);
 }
