@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"mian.h"
+#include"main.h"
 /**
  * print_to_98 - function
  * @n: print to n
