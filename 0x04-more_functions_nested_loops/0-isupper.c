@@ -2,14 +2,14 @@
 /**
  * _isupper - charater is upper case
  * @c: is a character
- * Return: 0
+ * Return: 1 if true
+ * Return: 0 if false
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
-		putchar(49);
+		return (1);
 	else
-		putchar(48);
-	return (0);
+		return (0);
 }
