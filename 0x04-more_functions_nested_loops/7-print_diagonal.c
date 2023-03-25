@@ -11,4 +11,6 @@ void print_diagonal(int n)
 	{
 		putchar('\n');
 	}
-	else 
+	else
+	{
+		for (i = 0;
