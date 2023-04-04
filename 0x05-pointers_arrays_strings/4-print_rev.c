@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * print_rev - function
- *
+ * @s: string
  */
 
 void print_rev(char *s)
