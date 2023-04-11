@@ -5,17 +5,16 @@
 /**
  * main - function call
  * @argv: vector
- * @argc: count
+ * @i: integer
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int i, char *argv[])
 {
-	int i = 0;
-
+	i = 0;
 	if (i == 0)
 	{
-		printf("%s %d\n", argv[i], argc);
+		printf("%s\n", argv[i]);
 	}
 	putchar('\n');
 	return (0);
