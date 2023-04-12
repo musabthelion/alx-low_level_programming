@@ -5,17 +5,12 @@
 /**
  * main - function call
  * @argv: vector
- * @i: integer
+ * @argc: count
  * Return: 0
  */
 
-int main(int i, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	i = 0;
-	if (i == 0)
-	{
-		printf("%s\n", argv[i]);
-	}
-	putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0);
 }
